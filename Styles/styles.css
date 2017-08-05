@@ -1,0 +1,233 @@
+/*Assignment: Final Project
+Author: Daniel Oviedo
+Date: 08/4/2017
+Filename: styles.css
+Descripton: My Styles*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+p {
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #76c2f2;
+}
+
+section {
+  background: rgba(23, 17, 17, 0.3);
+}
+
+.banner {
+  text-align: center;
+  padding: 20px 0;
+  align-items: center;
+  padding-bottom: 0;
+}
+
+.navigation {
+  display: inline-block;
+  width: 100%;
+  background: rgba(23, 17, 17, 0.1);
+  box-shadow: 2px 2px 4px #000000;
+  margin-bottom: 0;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+
+
+}
+
+.navigation li a {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  font-weight: bolder;
+  border-right: 1px solid #000000;
+}
+
+.navigation li a {
+font-family: Arial, sans-serif;
+font-size: medium;
+font-weight: bold;
+letter-spacing: 1px;
+}
+
+.navigation li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.navigation li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.wrapper {
+  background-image: url(../Images/cover_img.jpg);
+  background-size: auto;
+  clear: both;
+  margin-bottom: 50px;
+  padding-top: 2px;
+}
+
+.content {
+  margin: 0 auto;
+  width: 90%;
+  background: rgba(23, 17, 17, 0.3);
+  padding: 10px 5px;
+  text-shadow: 2px 2px 4px #000000;
+  color: #76c2f2;
+  padding-top: 0;
+}
+
+.gallery {
+  display: inline-block;
+  padding-top: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.gallery img {
+  border: 10px solid #76c2f2;
+}
+
+.contact-wrapper {
+  margin: 0;
+  padding: 30px;
+  display: inline-block;
+  width: 100%;
+  background-image: url(../Images/cover_img.jpg);
+  background-size: auto;
+}
+
+.contact-wrapper ul {
+  float: right;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.contact-wrapper li {
+  margin-bottom: 100px;
+  font-size: 15px;
+  background: rgba(23, 17, 17, 0.3);
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+.wrapper-news {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 50px;
+  margin: 0;
+  text-align: center;
+}
+
+.wrapper-news li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  padding: 50px;
+  border: 10px solid #76c2f2;
+  color: #76c2f2;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.title,
+.paragraph {
+  background: rgba(23, 17, 17, 0.3);
+}
+
+
+.otto {
+  background-image: url(../Images/noticias.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.escombros {
+  background-image: url(../Images/noticias02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.meeting {
+  background-image: url(../Images/noticias05.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.finanzas {
+  background-image: url(../Images/noticias04.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.feria {
+  background-image: url(../Images/nuestro_impacto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tomatal {
+  background-image: url(../Images/nuestro_impacto04-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.asopaabi {
+  background-image: url(../Images/nuestro_impacto-asoabi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.natureair {
+  background-image: url(../Images/nuestro_impacto-oncatours.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+  border-top: 15px solid #76c2f2;
+  margin-bottom: 20px;
+}
+
+.footer-nav {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.footer-nav li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+footer {
+  text-align: center;
+}
+
+/* ---- Clearfix ---- */
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
